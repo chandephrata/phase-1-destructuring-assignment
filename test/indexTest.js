@@ -28,6 +28,7 @@ describe("index.js", () => {
     expect(blackAndWhite).to.equal("cow")
     expect(black).to.exist
     expect(black).to.equal("sheep")
+    
     expect(pink).to.exist
     expect(pink).to.equal("pig")
   })
